@@ -1,0 +1,37 @@
+.get {
+    height: 819px;
+    background-color: @bg-get;
+
+    .upper(@base);
+
+    .form-control {
+        background-color: @bg-form;
+        border-style: none;
+    }
+
+    .container.input {
+        width: 860px;
+        justify-content: center;
+
+        .flex-c {
+            display: flex;
+            justify-content: space-between;
+
+            .form-control {
+                .button(414px, 56px, 4px, none, none);
+                margin: 0;
+            } 
+        }   
+    }
+
+    .input-group {
+        .button(860px, 200px, 4px, none, none);
+        padding-top: 26px;
+        padding-bottom: 56px;
+    }
+
+     button {
+        .fonts(18px, 26px, 600, @base, uppercase );
+        .button(293px, 70px, 4px, @primary, none);
+    }
+}

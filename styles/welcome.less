@@ -1,0 +1,48 @@
+.welcome {
+    height: 596px;
+    background-color: @bg-welcome;
+    padding-top: 58px;
+    img {
+        text-align: left;
+        padding-left: 211px;
+    }
+    .container {
+        .nav {
+            justify-content: flex-end;
+            padding-right: 195px; 
+
+            &.nav-pills {
+                .nav-link {
+                    font-size: 16px;
+                    .button(77px, 32px, 4px, none, none);
+                    padding: 0;
+        
+                    &.active {
+                        background-color: @bg-welcome;  
+                    }
+        
+                    &:hover  {
+                        background-color: @bth2;
+                    }
+                }
+            } 
+        }
+
+        &.intro {
+            .fonts(42px, 49px, 700, @base, uppercase);
+            color: @base;
+            padding-top: 144px;
+            padding-bottom: 52px;
+        }
+    }
+
+    .work {
+        button {
+            .button(293px, 70px, 4px, @sixth, none);
+
+            &:hover {
+                background-color: @bg-servies;
+             }
+         }
+    }
+}

@@ -1,0 +1,59 @@
+
+body {
+    font-family: @font-name;
+    text-align: center;
+    .services, .teams, .skills, .portfolio, .testimonials, .get {
+        padding-top: 120px;
+     }
+}
+
+ //mixins
+ .fonts(@f-s, @l-h, @f-w, @t-t, @c,) {
+    font-size: @f-s;
+    line-height: @l-h;
+    font-weight: @f-w;
+    color: @c;
+    text-transform: @t-t;
+}
+ .upper(@base) {
+    letter-spacing: 4px;
+    font-size: 40px;
+    line-height: 30px;
+    color: @base; 
+    font-weight: 700;
+        img {
+            padding-top: 20px;
+            padding-bottom: 20px;
+        }
+        p {
+            font-size: 18px;
+            letter-spacing: 0px;
+            line-height: 26px;
+            // color: @base;
+            font-weight: 400;
+            padding-bottom: 76px;
+        }
+}
+// .upper {
+//     .upper(@third);
+// }
+.button(@wdth, @hght, @br-r, @br-c, @br-s){
+    width: @wdth;
+    height: @hght;
+    border-radius: @br-r;
+    background-color: @br-c;
+    border-style: @br-s;   
+}
+
+//import
+@import "fonts";
+@import "colors";
+//blocks
+@import "welcome";
+@import "servies";
+@import "teams";
+@import "skills";
+@import "portfolio";
+@import "testiomonials";
+@import "get";
+@import "social";

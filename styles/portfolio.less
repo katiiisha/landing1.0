@@ -1,0 +1,38 @@
+.portfolio {
+    height: 1423px;
+    background-color: @bg-portfolio;
+
+    .upper(@third);
+
+    .upper p {
+        padding-bottom: 41px;
+        margin: 0;
+    }
+
+    .group  {
+        button{
+            .button(84px,38px, 4px, @bth1, none);
+            margin-left: 9px;
+            text-transform: uppercase;
+
+            &:hover {
+                background-color: @base;
+            }
+        }
+    }
+
+    .comp {
+        .fonts(18px, 20px, 400, @third, uppercase);
+        letter-spacing: 0px;
+        padding-bottom: 83px;
+        img {
+            padding-bottom: 32px;
+            padding-top: 62px;
+            
+        }
+    }
+
+    button {
+        .button(293px, 70px, 4px, @bg-servies, none)
+    }
+}

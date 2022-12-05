@@ -1,0 +1,41 @@
+
+/* testiomonials */
+.testimonials {
+    height: 894px;
+    background-color: #d74680;
+}
+.flex-container {
+    display: flex;
+    padding-bottom: 153px;
+}
+.base img {
+    text-align: left; 
+    width: 96px;
+    height: 96px;
+}
+.int {
+    padding-left: 48px;
+    text-align: left;
+}
+.fb {
+    width: 350px;
+    font-size: 21px;
+    line-height: 31px;
+    color: #ffffff;
+    font-weight: 400;
+    font-style: italic;
+}
+.name {
+    font-size: 24px;
+    line-height: 26px;
+    text-transform: uppercase;
+    color: #ffffff;
+    font-weight: 700;
+    margin: 0%;
+}
+.post {
+    font-size: 18px;
+    line-height: 26px;
+    color: #ffdd99;
+    font-weight: 400;
+}

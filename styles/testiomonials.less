@@ -1,0 +1,46 @@
+.testimonials {
+    height: 894px;
+    background-color: @bg-testimonials;
+
+    .upper(@base);
+
+    .flex-container {
+        
+        padding-bottom: 153px;
+
+        .base {
+           
+            img {
+            width: 96px;
+            padding-top: 0;
+            height: 96px;
+            }
+        }
+
+        .int {
+           
+            padding-left: 48px;
+            text-align: left;
+
+            p {
+                display: flex;
+                flex-wrap: wrap;
+                padding-bottom: 0;
+                 &.fb {
+                    .fonts(21px, 31px, 400, @base, capitalize);
+                    width: 350px;
+                    font-style: italic;
+                }
+
+                &.name {
+                    .fonts(24px, 26px, 700, @base, uppercase);
+                    margin: 0%;
+                }
+
+                &.post {
+                    .fonts(18px, 26px, 400, @bg-portfolio, capitalize);
+                }
+            }
+        }
+    }
+}
